@@ -1,0 +1,15 @@
+<div class="row">
+  <aside class="col-12 col-md-3 mb-4">
+    <div class="bg-light p-3 rounded">
+      <h5>Quick Info</h5>
+      <p>Email: you@example.com</p>
+      <p>Location: City, Country</p>
+    </div>
+  </aside>
+  <section class="col-12 col-md-9">
+    <h2 class="text-center mb-4">Professional Experience</h2>
+    {{#each experiences}}
+      {{> experience-card }}
+    {{/each}}
+  </section>
+</div>

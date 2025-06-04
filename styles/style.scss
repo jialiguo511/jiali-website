@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@400;700&family=Kotta+One&display=swap');
+
+body {
+  font-family: 'Kantumruy Pro', sans-serif;
+  background-color: #FFFBEE;
+  color: #000;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Kotta One', serif;
+}
+
+.navbar-nav .nav-link.active {
+  color: #D05E12 !important;
+  font-weight: bold;
+}
+
+footer {
+  font-family: 'Kantumruy Pro', sans-serif;
+  text-align: center;
+  padding: 1rem 0;
+}
