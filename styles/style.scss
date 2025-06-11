@@ -12,11 +12,23 @@ h1, h2, h3, h4, h5, h6, p {
 
 .navbar-nav .nav-link.active {
   color: #D05E12 !important;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 footer {
   font-family: 'Kantumruy Pro', sans-serif;
   text-align: center;
   padding: 1rem 0;
+}
+
+.serif {
+  font-family: 'Kotta One', serif;
+}
+
+.nav-link {
+  color: #D05E12;
+
+  &:hover {
+    color: darken(#D05E12,10%);
+  }
 }
