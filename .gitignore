@@ -1,9 +1,2 @@
 .DS_Store
-node_modules/.DS_Store
-node_modules/@parcel/.DS_Store
-node_modules/detect-libc/.DS_Store
-node_modules/handlebars/.DS_Store
-node_modules/minimist/.DS_Store
-node_modules/source-map/.DS_Store
-node_modules/uglify-js/.DS_Store
-node_modules/wordwrap/.DS_Store
+node_modules/*
