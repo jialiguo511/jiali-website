@@ -1,3 +1,5 @@
+@use "sass:color";
+
 @import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@400;700&family=Kotta+One&display=swap');
 
 body {
@@ -26,14 +28,18 @@ footer {
   font-family: 'Kotta One', serif;
 }
 
-.nav-link {
+.nav-link, a {
   color: #D05E12;
 
   &:hover {
-    color: darken(#D05E12,10%);
+    color: color.adjust(#D05E12, $lightness: -10%);
   }
 }
 
 .cv-border-bottom {
   border-bottom: #0a0a0a 1px solid;
+}
+
+.mw-100 {
+  min-width: 100px;
 }
