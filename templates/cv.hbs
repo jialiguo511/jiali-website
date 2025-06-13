@@ -2,7 +2,11 @@
 
 <h1 class="page__title">Curriculum Vitae</h1>
 
-<h2>Education</h2>
+{{#each experiences}}
+  {{> experience-card }}
+{{/each}}
+    
+<h2 class="cv-border-bottom">Education</h2>
 <section>
   <div class="d-flex flex-column flex-md-row justify-content-between align-items-start fw-bold">
     <div>Rollins School of Public Health, Emory University - Atlanta, GA</div>
@@ -23,7 +27,7 @@
   </ul>
 </section>
 
-<h2>Work Experience</h2>
+<h2 class="cv-border-bottom">Work Experience</h2>
 <section>
   <div class="d-flex flex-column flex-md-row justify-content-between align-items-start fw-bold">
     <div>Rollins School of Public Health, Emory University - Atlanta, GA</div>
@@ -63,7 +67,7 @@
   </ul>
 </section>
 
-<h2>Research Experience</h2>
+<h2 class="cv-border-bottom">Research Experience</h2>
 <section>
   <div class="fw-bold">Rollins School of Public Health, Emory University - Atlanta, GA</div>
   <i>Research Assistant, Department of Biostatistics and Bioinformatics</i>
@@ -124,7 +128,7 @@
   </ul>
 </section>
 
-<h2>Mentorship</h2>
+<h2 class="cv-border-bottom">Mentorship</h2>
 <section>
   <div class="d-flex flex-column flex-md-row justify-content-between align-items-start fw-bold">
     <div>Emory University - Atlanta, GA</div>
@@ -145,7 +149,7 @@
   </ul>
 </section>
 
-<h2>Skills</h2>
+<h2 class="cv-border-bottom">Skills</h2>
 <ul>
   <li><strong>Computer:</strong> R, Python, SAS, SQL, Tableau, Power BI, Stata, SPSS, Git, Office</li>
   <li><strong>Statistics:</strong> ML, DL, Survival, Longitudinal, ANCOVA, Bayesian, Regression</li>
@@ -154,7 +158,7 @@
   <li><strong>Codes:</strong> CPT, ICD-9/10, CCSR</li>
 </ul>
 
-<h2>Publications</h2>
+<h2 class="cv-border-bottom">Publications</h2>
 <h4>Published</h4>
 <ul>
   <li>Guo J, et al. T2D care cascade by race and sexual orientation. AIDS Patient Care STDS. 2024.</li>
