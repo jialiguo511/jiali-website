@@ -8,7 +8,7 @@ body {
   color: #0a0a0a;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Kantumruy Pro', sans-serif;
   font-weight: 600;
 }
@@ -42,4 +42,22 @@ footer {
 
 .mw-100 {
   min-width: 100px;
+}
+
+/* footer */
+.footer-signature {
+  display: grid;
+  /* first column auto-width (for “by”/“and”/empty), second = fill */
+  grid-template-columns: auto 1fr;
+  column-gap: .5em; 
+  row-gap: .2em;
+}
+/* make each span its own grid cell */
+.footer-signature span {
+  display: block;
+}
+/* make “We all learned” span span both columns */
+.footer-signature .full-width {
+  grid-column: 1 / -1;
+  margin-bottom: .4em;
 }
