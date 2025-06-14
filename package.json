@@ -4,9 +4,9 @@
   "description": "Personal bio site with Handlebars and Sass",
   "main": "build.js",
   "scripts": {
-    "build": "node build.js && sass styles/style.scss dist/styles/style.css",
+    "build": "node build.js && sass styles/style.scss docs/styles/style.css",
     "watch": "onchange \"templates/**/*.hbs\" \"styles/**/*.scss\" \"build.js\" -- npm run build",
-    "serve": "live-server dist --watch=dist --quiet",
+    "serve": "live-server docs --watch=docs --quiet",
     "dev": "concurrently \"npm run watch\" \"npm run serve\""
   },
   "dependencies": {
