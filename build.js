@@ -27,7 +27,7 @@ const pages = [
 ];
 
 // Build output directory
-const dist = 'dist';
+const dist = 'docs';
 fs.ensureDirSync(dist);
 
 // Render each page
@@ -38,4 +38,4 @@ pages.forEach(({ name, context }) => {
   fs.writeFileSync(`${dist}/${name}.html`, fullHtml);
 });
 
-console.log('Site built successfully into /dist');
+console.log('Site built successfully into /docs');

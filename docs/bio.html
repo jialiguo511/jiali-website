@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    rel="stylesheet"
+  />
+  <link href="../styles/style.css" rel="stylesheet">
+</head>
+<body class="d-flex flex-column min-vh-100">
+  <nav class="navbar navbar-expand-md navbar-light p-4" style="background-color: #FFFBEE;">
+    <div class="container-fluid mx-md-4 px-md-5">
+      <div>
+        <a class="navbar-brand mb-0 h1 bold uk-margin-medium" href="index.html">Jiali Guo</a>
+        <div class="small text-muted serif" style="margin-top: 0rem;">
+          An enthusiastic biostatistician, researcher, and baker.
+        </div>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="bio.html">Bio & Interests</a></li>
+          <li class="nav-item"><a class="nav-link" href="publications.html">Publications</a></li>
+          <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="fun-facts.html">Fun Facts</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main class="flex-grow-1 container mt-0">
+    <h2>Biography</h2>
+<h5 class="serif mb-3">In plain language, Jiali is:</h5>
+<p>
+  TBD
+</p>
+<p>
+  TBD
+</p>
+
+
+<h2 class="mt-5">Research Interests</h2>
+<h5 class="serif mb-3">After all these years, she is professionally interested in:</h5>
+<p>
+I am driven by the question of how machine learning and artificial intelligence can unlock the full potential of cohort and electronic health record (EHR) data to transform clinical decision-making. My research focuses on modeling patient heterogeneity and disease trajectories to enable precision medicine strategies that deliver individualized, effective care. Through my work analyzing large-scale EHR and cohort datasets, I apply machine learning methods to uncover actionable patterns that support patient-centered interventions and advance the integration of real-world data into clinical practice.
+</p>
+
+<p>
+While healthcare generates a wealth of data, critical gaps remain in how these resources are leveraged to improve patient outcomes. Electronic health records (EHR), though increasingly widespread, are still underutilized for predictive modeling, and claims data, while comprehensive in coverage, often lack key clinical details such as laboratory measurements. Each data source has limitations when used in isolation, but by integrating EHR, claims, genomic, and other datasets, we can better detect risk factors, monitor disease progression, and guide timely interventions. A major challenge lies in applying advanced machine learning and artificial intelligence methods to translate complex, heterogeneous data into clinically meaningful insights. My work focuses on applying and adapting informatics approaches to support precision medicine, with the goal of helping healthcare providers deliver more individualized, data-driven care in real-world clinical settings.
+</p>
+  </main>
+  <footer class="mt-4 py-4 text-muted small">
+    <div class="container text-start">
+      <div class="mb-1 fw-bold fs-4">Jiali Guo, MPH (郭珈利)</div>
+      <div class="mb-3 fs-6">
+        <a href="https://diabetes.emory.edu/" class="text-decoration-none nav-link">Emory Global Diabetes Research Center</a>
+        <a href="https://sph.emory.edu/departments/gh/index.html" class="text-decoration-none nav-link">Hubert Department of Global Health</a>
+        <a href="https://www.emory.edu/" class="text-decoration-none nav-link">Emory University</a>
+        Atlanta, GA USA
+      </div>
+      <div>-</div>
+      <div class="fst-italic fs-7">
+        <div class="footer-signature serif">
+          <span class="full-width"></span>
+          <span>We all learned </span><span>by doing,</span>
+          <span></span><span>by experimenting (often failing),</span>
+          <span></span><span>by asking questions,</span>
+        </div>
+        <div class="serif mb-2">and even more questions.</div>
+        <div class="serif">妥妥一只科研狗 🐶 </div>
+      </div>
+    </div>
+  </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const current = window.location.pathname.split('/').pop() || 'index.html';
+  const links = document.querySelectorAll('.navbar-nav .nav-link');
+  links.forEach(link => {
+    const href = link.getAttribute('href');
+    if (href === current) {
+      link.classList.add('active');
+    }
+  });
+});
+</script>
+</body>
+</html>
