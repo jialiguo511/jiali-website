@@ -5,15 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Home</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    rel="stylesheet"
+  />
   <link href="../styles/style.css" rel="stylesheet">
 </head>
 <body class="d-flex flex-column min-vh-100">
   <nav class="navbar navbar-expand-md navbar-light p-4" style="background-color: #FFFBEE;">
-    <div class="container-fluid px-md-5">
+    <div class="container-fluid mx-md-4 px-md-5">
       <div>
         <a class="navbar-brand mb-0 h1 bold uk-margin-medium" href="index.html">Jiali Guo</a>
         <div class="small text-muted serif" style="margin-top: 0rem;">
-          With will and grit, no goal is unreachable.
+          An enthusiastic biostatistician, researcher, and baker.
         </div>
       </div>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -22,58 +26,65 @@
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link" href="works.html">Works</a></li>
-          <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
-          <li class="nav-item"><a class="nav-link" href="bio.html">Bio</a></li>
-          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="bio.html">Bio & Interests</a></li>
           <li class="nav-item"><a class="nav-link" href="publications.html">Publications</a></li>
+          <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
           <li class="nav-item"><a class="nav-link" href="fun-facts.html">Fun Facts</a></li>
         </ul>
       </div>
     </div>
   </nav>
-  <main class="flex-grow-1 container mt-4">
-    <div class="row">
-  <aside class="col-12 col-md-3 mb-4">
-    <div class="bg-light p-3 rounded">
-      <h5>Quick Info</h5>
-      <p>Email: you@example.com</p>
-      <p>Location: City, Country</p>
+  <main class="flex-grow-1 container mt-0">
+    <section class="hero-section">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <!-- TEXT COLUMN -->
+      <div class="col-12 col-md-6">
+        <h1 class="hero-title fw-bold mb-3">
+          Hello from Jiali Guo
+        </h1>
+        <p class="hero-subtitle mb-4">
+          Data-driven biostatistician unlocking insights to advance global diabetes and HIV care.
+        </p>
+      </div>
+
+      <!-- IMAGE COLUMN -->
+      <div class="col-12 col-md-6 text-center">
+        <img
+          src="/assets/images/2570335.png"
+          alt="Artist holding palette"
+          class="img-fluid rounded"
+        >
+      </div>
+
     </div>
-  </aside>
-  <section class="col-12 col-md-9">
-    <h2 class="text-center mb-4">Professional Experience</h2>
-      <div class="card mb-3">
-        <div class="card-body">
-          <h5 class="card-title">Software Engineer</h5>
-          <h6 class="card-subtitle text-muted">Tech Corp — Jan 2020 - Present</h6>
-          <p class="card-text mt-2">Developed scalable web apps and collaborated across teams.</p>
-        </div>
-      </div>
-      <div class="card mb-3">
-        <div class="card-body">
-          <h5 class="card-title">Frontend Developer</h5>
-          <h6 class="card-subtitle text-muted">Creative Studio — Jun 2018 - Dec 2019</h6>
-          <p class="card-text mt-2">Built responsive UIs with React and improved performance.</p>
-        </div>
-      </div>
-  </section>
-</div>
+  </div>
+</section>
+
+
 
   </main>
-  <footer class="mt-auto py-4 text-muted small">
-    <div class="container px-4 text-start">
-      <div class="mb-2 fw-bold fs-4">Jiali Guo, MPH (郭珈利)</div>
-      <div class="mb-2 fs-6">jiali.guo[#]gmail.com</div>
+  <footer class="mt-4 py-4 text-muted small">
+    <div class="container text-start">
+      <div class="mb-1 fw-bold fs-4">Jiali Guo, MPH (郭珈利)</div>
       <div class="mb-3 fs-6">
         <a href="https://diabetes.emory.edu/" class="text-decoration-none nav-link">Emory Global Diabetes Research Center</a>
         <a href="https://sph.emory.edu/departments/gh/index.html" class="text-decoration-none nav-link">Hubert Department of Global Health</a>
         <a href="https://www.emory.edu/" class="text-decoration-none nav-link">Emory University</a>
         Atlanta, GA USA
       </div>
+      <div>-</div>
       <div class="fst-italic fs-7">
-        <div>With will and grit, no goal is unreachable.</div>
-        <div>苦心人天不负 破斧沉舟 三千越甲可吞吴</div>
+        <div class="footer-signature serif">
+          <span class="full-width"></span>
+          <span>We all learned </span><span>by doing,</span>
+          <span></span><span>by experimenting (often failing),</span>
+          <span></span><span>by asking questions,</span>
+        </div>
+        <div class="serif mb-2">and even more questions.</div>
+        <div class="serif">妥妥一只科研狗 🐶 </div>
       </div>
     </div>
   </footer>
