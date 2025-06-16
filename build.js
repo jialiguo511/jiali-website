@@ -18,7 +18,6 @@ const baseContext = { year: new Date().getFullYear() };
 // Pages and optional context
 const pages = [
   { name: 'index', context: { ...baseContext, ...JSON.parse(fs.readFileSync('data/experiences.json', 'utf8')) } },
-  { name: 'works', context: { ...baseContext, title: 'Works' } },
   { name: 'bio', context: { ...baseContext, title: 'Bio' } },
   { name: 'cv', context: { ...baseContext, title: 'CV' } },
   { name: 'publications', context: { ...baseContext, title: 'Publications' } },
