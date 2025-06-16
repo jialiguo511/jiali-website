@@ -1,4 +1,4 @@
-<div class="row mb-4 align-items-start">
+<div class="row mb-5 align-items-start">
   <!-- Left: project image -->
   <div class="col-12 col-md-3 mb-3 mb-md-0">
     <img
@@ -42,7 +42,9 @@
     <h6 class="mb-1">Short Summary</h6>
     <p class="mb-2">{{shortSummary}}</p>
 
-    <p class="mb-2"><strong>Future Directions:</strong> {{futureDirections}}</p>
+    {{#if futureDirections}}
+      <p class="mb-2"><strong>Future Directions:</strong> {{futureDirections}}</p>
+    {{/if}}
 
     <!-- Collapse trigger for Long Summary -->
     <p class="mb-2">
