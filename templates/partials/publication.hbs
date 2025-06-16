@@ -1,0 +1,69 @@
+<div class="row mb-4 align-items-start">
+  <!-- Left: project image -->
+  <div class="col-12 col-md-3 mb-3 mb-md-0">
+    <img
+      src="{{image.src}}"
+      alt="{{image.alt}}"
+      class="{{image.class}}"
+    >
+  </div>
+  <!-- Right: content -->
+  <div class="col-12 col-md-9">
+
+    <!-- Published & Journal at top -->
+    <div class="mb-2">
+      <span class="badge bg-success me-2">{{publishedBadge}}</span>
+      <small class="text-secondary">{{journal}}</small>
+    </div>
+
+    <!-- Title & Authors -->
+    <h5 class="mb-2">{{title}}</h5>
+    <h6 class="text-muted mb-2">{{authors}}</h6>
+
+    <!-- Keywords -->
+    <div class="mb-2">
+      {{#each keywords}}
+        <span class="badge bg-secondary {{#unless @last}}me-1{{/unless}}">{{this}}</span>
+      {{/each}}
+    </div>
+
+    <!-- Link -->
+    <p class="mb-2">
+      <a
+        href="{{link.url}}"
+        class="{{link.class}}"
+        target="_blank" rel="noopener"
+      >
+        {{link.text}}
+      </a>
+    </p>
+
+    <!-- Short Summary -->
+    <h6 class="mb-1">Short Summary</h6>
+    <p class="mb-2">{{shortSummary}}</p>
+
+    <p class="mb-2"><strong>Future Directions:</strong> {{futureDirections}}</p>
+
+    <!-- Collapse trigger for Long Summary -->
+    <p class="mb-2">
+      <a
+        class="nav-link text-decoration-none d-inline-flex align-items-center p-0"
+        data-bs-toggle="collapse"
+        href="#longSummary"
+        role="button"
+        aria-expanded="false"
+        aria-controls="longSummary"
+      >
+        <i class="fas fa-chevron-down me-2"></i>
+        Show Long Summary
+      </a>
+    </p>
+
+    <div class="collapse" id="longSummary">
+      {{#each longSummary}}
+        <p>{{this}}</p>
+      {{/each}}
+    </div>
+
+  </div>
+</div>

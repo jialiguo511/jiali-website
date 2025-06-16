@@ -1,0 +1,31 @@
+[
+  {
+    "image": {
+      "src": "path/to/your-figure.png",
+      "alt": "Age‐standardised diabetes care continuum by race & sexual orientation",
+      "class": "img-fluid rounded"
+    },
+    "publishedBadge": "Published",
+    "journal": "AIDS PATIENT CARE and STDs",
+    "title": "Prevalence, Monitoring, Treatment, and Control of Type... Diabetes by Race and Sexual Orientation Among Males with HIV",
+    "authors": "Jiali Guo, Samuel C.O. Opara, Sophia A. Hussen & Jithin Sam Varghese",
+    "keywords": [
+      "type 2 diabetes",
+      "HIV",
+      "EHR",
+      "cardiovascular disease",
+      "health disparities"
+    ],
+    "link": {
+      "url": "https://www.liebertpub.com/doi/10.1089/apc.202...2003&rfr_id=ori%3Arid%3Acrossref.org&rfr_dat=cr_pub++0pubmed",
+      "class": "text-decoration-none",
+      "text": "View full article"
+    },
+    "shortSummary": "Our study utilized electronic health records (EHR) of an HIV outpatient clinic to assess the continuum of diabetes care among people with HIV (PWH) and explored potential disparities in the management of diabetes across different racial and sexual orientation groups. We observed higher crude prevalence among Black heterosexual men but no meaningful differences after adjusting for BMI.",
+    "futureDirections": "Investigate pharmacological and structural barriers to diabetes management among racial and sexual minorities living with HIV.",
+    "longSummary": [
+      "People with HIV experience a disproportionate burden of diabetes and face greater difficulties in managing the condition effectively. Although race and sexual orientation are independent risk factors for HIV and cardiometabolic diseases, their impact on diabetes care among PWH remains understudied.",
+      "In this retrospective study, we used EHR data from an HIV outpatient clinic to assess prevalence, monitoring, treatment, and control of diabetes across race and sexual orientation groups. While Black heterosexual men showed higher raw prevalence, adjustments for age and BMI eliminated those differences. Monitoring (HbA1c checks) was high overall, but few patients achieved adequate glycemic control, with no significant disparities."
+    ]
+  }
+]

@@ -20,7 +20,14 @@ const pages = [
   { name: 'index', context: { ...baseContext, ...JSON.parse(fs.readFileSync('data/experiences.json', 'utf8')) } },
   { name: 'bio', context: { ...baseContext, title: 'Bio' } },
   { name: 'cv', context: { ...baseContext, title: 'CV' } },
-  { name: 'publications', context: { ...baseContext, title: 'Publications' } },
+  { 
+    name: 'publications', 
+    context: {
+      ...baseContext,
+      title: 'Publications',
+      publications: JSON.parse(fs.readFileSync('data/publications.json', 'utf8'))
+    }
+  },
   { name: 'contact', context: { ...baseContext, title: 'Contact' } },
   { name: 'fun-facts', context: { ...baseContext, title: 'Fun Facts' } }
 ];
