@@ -88,4 +88,4 @@ This site is configured to be hosted using **GitHub Pages**. Make sure your repo
 
 ## 📝 License
 
-This project is for personal and academic use only. Please contact [Jiali Guo](mailto:your.email@example.com) for permissions.
+This project is for personal and academic use only. Please contact [Jiali Guo](jialiguo.com/contact) for permissions.
