@@ -60,5 +60,100 @@
       "Our analysis revealed three youth-onset subtypes: 48.5% had obesity-related T2D (yOD), 18.7% had insulin deficient T2D (yIDD), and 32.7% had insulin resistant T2D (yIRD). The yOD subtype were characterized by high BMI (33.5 kg/m² [SD: 3.7]) and low HbA1c (5.7%, IQR: 5.4–6.2%). The yIDD exhibited low fasting C-peptide levels (2.1 ng/mL [SD: 1.1]), high HDL cholesterol (48.2 mg/dL [SD: 9.6]), and high HbA1c (7.6%, IQR: 6.3–8.9%). The yIRD subtype had high BMI (38.8 kg/m² [SD: 7.3]), high fasting C-peptide (5.1 ng/mL [SD: 1.8]), and high blood pressures (SBP: 124.0 mmHg [SD: 9.4]; DBP: 76.2 mmHg [SD: 9.1]) compared to other subtypes.",
       "This analysis identified three subtypes of youth-onset T2D with different clinical characteristics. Management of youth-onset T2D may require tailored strategies by subtype."
     ]
+  },
+  {
+    "image": {
+      "src": "path/to/your-figure.png",
+      "alt": "Forest plot of mean and ci of bmi by dm, race and sex one dm group; Forest plot of mean and ci of body fat by dm, race and sex one dm group",
+      "class": "img-fluid rounded"
+    },
+    "publishedBadge": "In Progress",
+    "journal": "TBD",
+    "title": "Body composition and body mass index among people with and without diabetes: a national analysis, 2011-2018",
+    "authors": "Rodolfo J. Galindo, Jiali Guo, Giuliana Arevalo, Jithin Sam Varghese, Khrisna Sanaka, Rozalina McCoy, Guillermo E. Umpierrez, W. Timothy Garvey, Mohammed K. Ali",
+    "keywords": ["adiposity", "body fat", "type 2 diabetes", "survey data"],
+    "link": {
+      "url": "https://www.medrxiv.org/content/10.1101/2024.10.01.24314707v1",
+      "class": "text-decoration-none",
+      "text": "View full article"
+    },
+    "shortSummary": "TBD",
+    "futureDirections": false,
+    "longSummary": [
+      "Recent consensus recommended using direct body fat measurements. Characterizing people with obesity based on % body fat (%BF) may more precisely define risk compared with body mass index (BMI). However, there is limited evidence assessing differences in %BF together with BMI across the continuum of dysglycemia.",
+      "Retrospective analysis of the NHANES 2011-2018 data, including adults (>18 years) with no diabetes (NoDM), pre-diabetes (self-reported no DM and based on laboratory testing), or diabetes (self-reported DM >1 year). We compared the means and distributions of %BF, BMI and cardiometabolic parameters, stratified by sex and race/ethnicity, for people with NoDM, Pre-Diabetes and DM.",
+      "Our findings showed increasing levels of BMI and central adiposity anthropometric measures across the continuum of dysglycemia in the U.S. However, percentage of total body fat was only significantly higher in people with PreDM compared to people with noDM, and only significantly different in Males with PreDM compared to those with more advanced dysglycemic status of DM. We also demonstrated higher levels of body fat in females across the continuum of dysglycemia and also among different racial/ethnic subgroups. Our results demonstrated that percentage body fat should not be the only method of direct fat evaluation, particularly in females."
+    ]
+  },{
+    "image": {
+      "src": "path/to/your-figure.png",
+      "alt": "FIGURE ADA Metabolic monitoring",
+      "class": "img-fluid rounded"
+    },
+    "publishedBadge": "In Progress",
+    "journal": "TBD",
+    "title": "Metabolic Monitoring among Patients with Type 2 Diabetes Prescribed Second Generation Antipsychotics",
+    "authors": "Jiali Guo, David Goldsmith, Francisco J. Pasquel, Mohammed K. Ali, Benjamin Druss, Robert O. Cotes, Jithin Sam Varghese",
+    "keywords": [],
+    "link": false,
+    "shortSummary": "We studied metabolic monitoring in the three years after the first SGA prescription following T2D diagnosis, relative to those prescribed first generation antipsychotics (FGA) and neither. Poor metabolic monitoring following SGA prescription may hinder individualized risk management for T2D complications among this vulnerable population.",
+    "futureDirections": false,
+    "longSummary": [
+      "Annual metabolic monitoring is strongly recommended for patients with type 2 diabetes (T2D) prescribed second-generation antipsychotics (SGA). Our objective was to study the rates of monitoring in the period after index SGA prescription following T2D diagnosis, relative to those prescribed first-generation antipsychotics (FGA) and neither.",
+      "Among 469,503 adults in Epic Cosmos, we estimated the rates of monitoring (%) of weight, HbA1c, LDL, and renal function for Years 1 to 3 using marginal logistic models. We adjusted for demographic, clinical covariates, encounter frequency, and Charlson Comorbidity Index.",
+      "Although those prescribed SGA and FGA had more healthcare visits, monitoring decreased following index prescription for all groups. Relative to those prescribed neither, renal function was monitored more frequently among patients prescribed SGA and FGA only in Year 1, while HbA1c and LDL were monitored less for all years. Poor metabolic monitoring following SGA prescription may hinder risk management for T2D complications among this vulnerable population."
+    ]
+  },{
+    "image": {
+      "src": "path/to/your-figure.png",
+      "alt": "age-standardised hypertension care continuum by race and sexual orientation",
+      "class": "img-fluid rounded"
+    },
+    "publishedBadge": "Resubmit",
+    "journal": "TBD",
+    "title": "Hypertension prevalence, treatment and control among men attending an HIV specialty clinic",
+    "authors": "Samuel C.O. Opara, Jiali Guo, Sophia A. Hussen, and Jithin Sam Varghese",
+    "keywords": ["Hypertension", "HIV", "LGBTQ", "cardiovascular disease", "health disparities"],
+    "link": false,
+    "shortSummary": "We analyzed electronic health records from Grady Ponce De Leon Center to characterize hypertension detection, monitoring, treatment and control among cisgender adult male persons living with HIV (PLWH) from 2020-2023. Disparities exist in prevalence of hypertension among male PLWH by race/sexual orientation. Research aimed at identifying mechanisms underlying these disparities would facilitate improving cardiovascular care in this population.",
+    "futureDirections": false,
+    "longSummary": [
+      "Hypertension disproportionately affects Black persons and persons living with HIV (PLWH). Synergistic effects of hypertension and HIV may increase risk for adverse cardiovascular outcomes among Black sexual minority men (SMM). We described a care-continuum for hypertension among men receiving HIV/primary care at a HIV specialty clinic in Atlanta, Georgia and detailed differences in hypertension diagnosis and management by race and sexual orientation (SO).",
+      "We analyzed electronic health records from Grady Ponce De Leon Center to characterize hypertension detection, monitoring, treatment and control among cisgender adult male PLWH from 2020-2023. We categorized our cohort by age and a combination of race/SO and reported all stages of our care-continuum by these categories. We used Poisson and logistic regression models to characterize differences between race/SO categories at various stages of our care-continuum, adjusting for age and body mass index.",
+      "Compared to non-Black heterosexual men, crude and adjusted prevalence ratios for detected hypertension were significantly higher among non-Black SMM (1.33; 95%CI:1.14-1.56 and 1.30; 95%CI:1.12-1.50), Black heterosexual men (1.42; 95%CI:1.22-1.66 and 1.32; 95%CI:1.15-1.52) and Black SMM (1.21; 95%CI:1.04-1.41 and 1.37; 95%CI:1.19-1.57). There were no significant differences between race/SO groups in HTN monitoring, treatment, or control in crude and adjusted models. Disparities exist in prevalence of hypertension among male PLWH by race/SO. Research aimed at identifying mechanisms underlying these disparities would facilitate improving cardiovascular care in this population."
+    ]
+  },{
+    "image": {
+      "src": "path/to/your-figure.png",
+      "alt": "",
+      "class": "img-fluid rounded"
+    },
+    "publishedBadge": "In Progress",
+    "journal": "TBD",
+    "title": "Risk of all-cause and cause-specific mortality for novel subtypes of type 2 diabetes",
+    "authors": "Krishna Sanaka, Jiali Guo, Zhongyu Li, Jithin Sam Varghese, et al.",
+    "keywords": false,
+    "link": false,
+    "shortSummary": "TBD",
+    "futureDirections": false,
+    "longSummary": [
+    ]
+  },{
+    "image": {
+      "src": "path/to/your-figure.png",
+      "alt": "",
+      "class": "img-fluid rounded"
+    },
+    "publishedBadge": "In Progress",
+    "journal": "TBD",
+    "title": "Glycemic Measures, Homeostatic Model Assessment and Risk Prediction of Incident Cardiovascular Events and Mortality: A Pooled Analysis of Multi-ethnic NHLBI Cohorts ",
+    "authors": "Ayodipupo S. Oguntade, Jithin Sam S. Varghese, Rodrigo M. Carrillo-Larco, Jiali Guo, Shivani Patel, Ram Jagannathan, Arshed Quyyumi, Mohammed K. Ali, K.M. Venkat Narayan",
+    "keywords": ["Glycemic measures", "HOMA2-IR", "ASCVD risk prediction", "insulin resistance"],
+    "link": false,
+    "shortSummary": "TBD",
+    "futureDirections": false,
+    "longSummary": [
+    ]
   }
+
 ]

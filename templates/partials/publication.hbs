@@ -22,9 +22,11 @@
 
     <!-- Keywords -->
     <div class="mb-2">
-      {{#each keywords}}
-        <span class="badge bg-secondary {{#unless @last}}me-1{{/unless}}">{{this}}</span>
-      {{/each}}
+      {{#if keywords}}
+        {{#each keywords}}
+          <span class="badge bg-secondary {{#unless @last}}me-1{{/unless}}">{{this}}</span>
+        {{/each}}
+      {{/if}}
     </div>
 
     <!-- Link -->
