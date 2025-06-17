@@ -44,12 +44,25 @@
   <li class="nav-item">
     <a
       class="nav-link active text-decoration-none ps-0 me-4"
+      id="curio-tab"
+      data-bs-toggle="tab"
+      href="#curio"
+      role="tab"
+      aria-controls="curio"
+      aria-selected="true"
+    >
+      🧩 <br> Curiosity &amp; Reflection
+    </a>
+  </li>
+  <li class="nav-item">
+    <a
+      class="nav-link text-decoration-none ps-0 me-4"
       id="mind-tab"
       data-bs-toggle="tab"
       href="#mind"
       role="tab"
       aria-controls="mind"
-      aria-selected="true"
+      aria-selected="false"
     >
       🧠 <br> Mind &amp; Meaning
     </a>
@@ -67,26 +80,49 @@
       🏃‍♀️ <br> Movement &amp; Culinary Arts
     </a>
   </li>
-  <li class="nav-item">
-    <a
-      class="nav-link text-decoration-none ps-0 me-4"
-      id="curio-tab"
-      data-bs-toggle="tab"
-      href="#curio"
-      role="tab"
-      aria-controls="curio"
-      aria-selected="false"
-    >
-      🧩 <br> Curiosity &amp; Reflection
-    </a>
-  </li>
+  
 </ul>
 
 <div class="tab-content">
 
-  <!-- Mind & Meaning -->
+  <!-- Curiosity & Reflection -->
   <div
     class="tab-pane fade show active"
+    id="curio"
+    role="tabpanel"
+    aria-labelledby="curio-tab"
+  >
+    <div class="row mb-5">
+      <!-- Left column: text -->
+      <div class="col-12 col-lg-4">
+        <p>
+          I’m always looking for the “why” — behind behavior, behind patterns, behind seemingly small details. To me, understanding is the most satisfying kind of discovery.
+        </p>
+        <p>
+          Biomedical/Public health research isn’t just an interest — it’s a lens through which I view the world. I'm intrigued by emotional complexity, human resilience, and how we heal and grow.
+        </p>
+      </div>
+
+      <!-- Right column: image grid -->
+      <div class="col-12 col-lg-8">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-3">
+          <div class="col">
+            <img src="/assets/images/fun-facts/53643528759_a6987929ec_k.jpg" class="img-fluid rounded" alt="forest walk">
+          </div>
+          <div class="col">
+            <img src="/assets/images/fun-facts/53643400393_39af9377e9_k.jpg" class="img-fluid rounded" alt="forest walk">
+          </div>
+          <div class="col">
+            <img src="/assets/images/fun-facts/2081743711968.jpeg" class="img-fluid rounded" alt="running">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Mind & Meaning -->
+  <div
+    class="tab-pane fade"
     id="mind"
     role="tabpanel"
     aria-labelledby="mind-tab"
@@ -185,40 +221,7 @@
     </div>
   </div>
 
-  <!-- Curiosity & Reflection -->
-  <div
-    class="tab-pane fade"
-    id="curio"
-    role="tabpanel"
-    aria-labelledby="curio-tab"
-  >
-    <div class="row mb-5">
-      <!-- Left column: text -->
-      <div class="col-12 col-lg-4">
-        <p>
-          I’m always looking for the “why” — behind behavior, behind patterns, behind seemingly small details. To me, understanding is the most satisfying kind of discovery.
-        </p>
-        <p>
-          Biomedical/Public health research isn’t just an interest — it’s a lens through which I view the world. I'm intrigued by emotional complexity, human resilience, and how we heal and grow.
-        </p>
-      </div>
-
-      <!-- Right column: image grid -->
-      <div class="col-12 col-lg-8">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-3">
-          <div class="col">
-            <img src="/assets/images/fun-facts/53643528759_a6987929ec_k.jpg" class="img-fluid rounded" alt="forest walk">
-          </div>
-          <div class="col">
-            <img src="/assets/images/fun-facts/53643400393_39af9377e9_k.jpg" class="img-fluid rounded" alt="forest walk">
-          </div>
-          <div class="col">
-            <img src="/assets/images/fun-facts/2081743711968.jpeg" class="img-fluid rounded" alt="running">
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  
 </div>
   </main>
   <footer class="mt-4 py-4 text-muted small">
