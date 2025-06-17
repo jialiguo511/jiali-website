@@ -24,7 +24,11 @@ fs.readdirSync(partialsDir).forEach(file => {
 // Load layout
 const layout = Handlebars.compile(fs.readFileSync('templates/layout.hbs', 'utf8'));
 
-const baseContext = { year: new Date().getFullYear() };
+// Load social links
+const socialLinks = JSON.parse(fs.readFileSync('data/socialLinks.json', 'utf8'));
+
+// Attach to baseContext
+const baseContext = { year: new Date().getFullYear(), socialLinks: socialLinks };
 
 // Pages and optional context
 const pages = [
