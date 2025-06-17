@@ -28,19 +28,19 @@ const baseContext = { year: new Date().getFullYear() };
 
 // Pages and optional context
 const pages = [
-  { name: 'index', context: { ...baseContext, ...JSON.parse(fs.readFileSync('data/experiences.json', 'utf8')) } },
-  { name: 'bio', context: { ...baseContext, title: 'Bio' } },
-  { name: 'cv', context: { ...baseContext, title: 'CV' } },
+  { name: 'index', context: { ...baseContext, title: 'Jiali Guo\'s Website' } },
+  { name: 'bio', context: { ...baseContext, title: 'Jiali - Bio' } },
+  { name: 'cv', context: { ...baseContext, title: 'Jiali - CV' } },
   { 
     name: 'publications', 
     context: {
       ...baseContext,
-      title: 'Publications',
+      title: 'Jiali - Publications',
       publications: JSON.parse(fs.readFileSync('data/publications.json', 'utf8'))
     }
   },
-  { name: 'contact', context: { ...baseContext, title: 'Contact' } },
-  { name: 'fun-facts', context: { ...baseContext, title: 'Fun Facts' } }
+  { name: 'contact', context: { ...baseContext, title: 'Jiali - Contact' } },
+  { name: 'fun-facts', context: { ...baseContext, title: 'Jiali - Fun Facts' } }
 ];
 
 // Build output directory
