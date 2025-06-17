@@ -230,6 +230,29 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 });
+
+// Publication Show/Hide Long Summary
+document.addEventListener('DOMContentLoaded', function () {
+  // Only target toggles within publications to avoid other collapse components
+  document.querySelectorAll('.publication [data-bs-toggle="collapse"]').forEach(function (toggle) {
+    const targetSelector = toggle.getAttribute('href') || toggle.getAttribute('data-bs-target');
+    if (!targetSelector) return;
+    const targetEl = document.querySelector(targetSelector);
+    if (!targetEl) return;
+    const icon = toggle.querySelector('i');
+    const text = toggle.querySelector('.toggle-text');
+    
+    targetEl.addEventListener('show.bs.collapse', function () {
+      icon.classList.replace('fa-chevron-down', 'fa-chevron-up');
+      if (text) text.textContent = 'Hide Long Summary';
+    });
+
+    targetEl.addEventListener('hide.bs.collapse', function () {
+      icon.classList.replace('fa-chevron-up', 'fa-chevron-down');
+      if (text) text.textContent = 'Show Long Summary';
+    });
+  });
+});
 </script>
 </body>
 </html>
