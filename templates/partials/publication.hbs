@@ -1,4 +1,4 @@
-<div class="row mb-5 align-items-start">
+<div class="publication row mb-5 align-items-start">
   <!-- Left: project image -->
   <div class="col-12 col-md-3 mb-3 mb-md-0">
     <img
@@ -12,7 +12,16 @@
 
     <!-- Published & Journal at top -->
     <div class="mb-2">
-      <span class="badge bg-success me-2">{{publishedBadge}}</span>
+      <!-- Status badge -->
+      {{#if (eq status "Published")}}
+        <span class="badge bg-success">{{status}}</span>
+      {{else if (eq status "In Progress")}}
+        <span class="badge bg-warning text-dark">{{status}}</span>
+      {{else if (eq status "Resubmit")}}
+        <span class="badge bg-info">{{status}}</span>
+      {{else}}
+        <span class="badge bg-secondary">{{status}}</span>
+      {{/if}}
       <small class="text-secondary">{{journal}}</small>
     </div>
 
@@ -49,25 +58,26 @@
     {{/if}}
 
     <!-- Collapse trigger for Long Summary -->
-    <p class="mb-2">
-      <a
-        class="nav-link text-decoration-none d-inline-flex align-items-center p-0"
-        data-bs-toggle="collapse"
-        href="#longSummary"
-        role="button"
-        aria-expanded="false"
-        aria-controls="longSummary"
-      >
+    {{#if longSummary}}
+      <p class="mb-2">
+        <a
+          class="nav-link text-decoration-none d-inline-flex align-items-center p-0"
+          data-bs-toggle="collapse"
+          href="#longSummary-{{id}}"
+          role="button"
+          aria-expanded="false"
+          aria-controls="longSummary-{{id}}">
         <i class="fas fa-chevron-down me-2"></i>
-        Show Long Summary
-      </a>
-    </p>
+          <span class="toggle-text">Show Long Summary</span>
+        </a>
+      </p>
 
-    <div class="collapse" id="longSummary">
-      {{#each longSummary}}
-        <p>{{this}}</p>
-      {{/each}}
-    </div>
+      <div class="collapse" id="longSummary-{{id}}">
+        {{#each longSummary}}
+          <p>{{this}}</p>
+        {{/each}}
+      </div>
+    {{/if}}
 
   </div>
 </div>

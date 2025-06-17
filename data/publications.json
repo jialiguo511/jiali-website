@@ -1,11 +1,12 @@
 [
   {
+    "id": "pub01",
     "image": {
       "src": "path/to/your-figure.png",
       "alt": "Age‐standardised diabetes care continuum by race & sexual orientation",
       "class": "img-fluid rounded"
     },
-    "publishedBadge": "Published",
+    "status": "Published",
     "journal": "AIDS PATIENT CARE and STDs",
     "title": "Prevalence, Monitoring, Treatment, and Control of Type... Diabetes by Race and Sexual Orientation Among Males with HIV",
     "authors": "Jiali Guo, Samuel C.O. Opara, Sophia A. Hussen & Jithin Sam Varghese",
@@ -29,12 +30,13 @@
     ]
   },
   {
+    "id": "pub02",
     "image": {
       "src": "path/to/your-figure.png",
       "alt": "Distribution of clinical characteristics residuals by cluster",
       "class": "img-fluid rounded"
     },
-    "publishedBadge": "Journal Review",
+    "status": "Journal Review",
     "journal": "The Journal of Diabetes and Its Complications",
     "title": "Data-driven subtypes of newly diagnosed youth-onset type 2 diabetes in the USA",
     "authors": "Jiali Guo, Zhongyu Li, Rodrigo M. Carrillo-Larco, Daniel S. Hsia, Jessica L Harding, Mohammed K. Ali, Jithin Sam Varghese",
@@ -62,12 +64,13 @@
     ]
   },
   {
+    "id": "pub03",
     "image": {
       "src": "path/to/your-figure.png",
       "alt": "Forest plot of mean and ci of bmi by dm, race and sex one dm group; Forest plot of mean and ci of body fat by dm, race and sex one dm group",
       "class": "img-fluid rounded"
     },
-    "publishedBadge": "In Progress",
+    "status": "In Progress",
     "journal": "TBD",
     "title": "Body composition and body mass index among people with and without diabetes: a national analysis, 2011-2018",
     "authors": "Rodolfo J. Galindo, Jiali Guo, Giuliana Arevalo, Jithin Sam Varghese, Khrisna Sanaka, Rozalina McCoy, Guillermo E. Umpierrez, W. Timothy Garvey, Mohammed K. Ali",
@@ -85,12 +88,13 @@
       "Our findings showed increasing levels of BMI and central adiposity anthropometric measures across the continuum of dysglycemia in the U.S. However, percentage of total body fat was only significantly higher in people with PreDM compared to people with noDM, and only significantly different in Males with PreDM compared to those with more advanced dysglycemic status of DM. We also demonstrated higher levels of body fat in females across the continuum of dysglycemia and also among different racial/ethnic subgroups. Our results demonstrated that percentage body fat should not be the only method of direct fat evaluation, particularly in females."
     ]
   },{
+    "id": "pub04",
     "image": {
       "src": "path/to/your-figure.png",
       "alt": "FIGURE ADA Metabolic monitoring",
       "class": "img-fluid rounded"
     },
-    "publishedBadge": "In Progress",
+    "status": "In Progress",
     "journal": "TBD",
     "title": "Metabolic Monitoring among Patients with Type 2 Diabetes Prescribed Second Generation Antipsychotics",
     "authors": "Jiali Guo, David Goldsmith, Francisco J. Pasquel, Mohammed K. Ali, Benjamin Druss, Robert O. Cotes, Jithin Sam Varghese",
@@ -104,12 +108,13 @@
       "Although those prescribed SGA and FGA had more healthcare visits, monitoring decreased following index prescription for all groups. Relative to those prescribed neither, renal function was monitored more frequently among patients prescribed SGA and FGA only in Year 1, while HbA1c and LDL were monitored less for all years. Poor metabolic monitoring following SGA prescription may hinder risk management for T2D complications among this vulnerable population."
     ]
   },{
+    "id": "pub05",
     "image": {
       "src": "path/to/your-figure.png",
       "alt": "age-standardised hypertension care continuum by race and sexual orientation",
       "class": "img-fluid rounded"
     },
-    "publishedBadge": "Resubmit",
+    "status": "Resubmit",
     "journal": "TBD",
     "title": "Hypertension prevalence, treatment and control among men attending an HIV specialty clinic",
     "authors": "Samuel C.O. Opara, Jiali Guo, Sophia A. Hussen, and Jithin Sam Varghese",
@@ -123,12 +128,13 @@
       "Compared to non-Black heterosexual men, crude and adjusted prevalence ratios for detected hypertension were significantly higher among non-Black SMM (1.33; 95%CI:1.14-1.56 and 1.30; 95%CI:1.12-1.50), Black heterosexual men (1.42; 95%CI:1.22-1.66 and 1.32; 95%CI:1.15-1.52) and Black SMM (1.21; 95%CI:1.04-1.41 and 1.37; 95%CI:1.19-1.57). There were no significant differences between race/SO groups in HTN monitoring, treatment, or control in crude and adjusted models. Disparities exist in prevalence of hypertension among male PLWH by race/SO. Research aimed at identifying mechanisms underlying these disparities would facilitate improving cardiovascular care in this population."
     ]
   },{
+    "id": "pub06",
     "image": {
       "src": "path/to/your-figure.png",
       "alt": "",
       "class": "img-fluid rounded"
     },
-    "publishedBadge": "In Progress",
+    "status": "In Progress",
     "journal": "TBD",
     "title": "Risk of all-cause and cause-specific mortality for novel subtypes of type 2 diabetes",
     "authors": "Krishna Sanaka, Jiali Guo, Zhongyu Li, Jithin Sam Varghese, et al.",
@@ -136,15 +142,15 @@
     "link": false,
     "shortSummary": "TBD",
     "futureDirections": false,
-    "longSummary": [
-    ]
+    "longSummary": false
   },{
+    "id": "pub07",
     "image": {
       "src": "path/to/your-figure.png",
       "alt": "",
       "class": "img-fluid rounded"
     },
-    "publishedBadge": "In Progress",
+    "status": "In Progress",
     "journal": "TBD",
     "title": "Glycemic Measures, Homeostatic Model Assessment and Risk Prediction of Incident Cardiovascular Events and Mortality: A Pooled Analysis of Multi-ethnic NHLBI Cohorts ",
     "authors": "Ayodipupo S. Oguntade, Jithin Sam S. Varghese, Rodrigo M. Carrillo-Larco, Jiali Guo, Shivani Patel, Ram Jagannathan, Arshed Quyyumi, Mohammed K. Ali, K.M. Venkat Narayan",
@@ -152,8 +158,7 @@
     "link": false,
     "shortSummary": "TBD",
     "futureDirections": false,
-    "longSummary": [
-    ]
+    "longSummary": false
   }
 
 ]
