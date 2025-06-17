@@ -2,6 +2,17 @@ const fs = require('fs-extra');
 const Handlebars = require('handlebars');
 const path = require('path');
 
+// Register 'eq' helper for value comparisons in templates
+// Supports both inline and block usage
+Handlebars.registerHelper('eq', function(a, b, options) {
+  // Block helper usage: {{#eq a b}}...{{else}}...{{/eq}}
+  if (options && typeof options.fn === 'function') {
+    return (a === b) ? options.fn(this) : options.inverse(this);
+  }
+  // Inline usage: {{#if (eq a b)}}
+  return a === b;
+});
+
 // Register partials
 const partialsDir = path.join(__dirname, 'templates/partials');
 fs.readdirSync(partialsDir).forEach(file => {
