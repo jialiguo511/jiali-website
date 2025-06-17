@@ -21,28 +21,20 @@ fs.readdirSync(partialsDir).forEach(file => {
   Handlebars.registerPartial(name, content);
 });
 
-// Load layout
+// Load layout, social links, and publications
 const layout = Handlebars.compile(fs.readFileSync('templates/layout.hbs', 'utf8'));
-
-// Load social links
 const socialLinks = JSON.parse(fs.readFileSync('data/socialLinks.json', 'utf8'));
+const publications = JSON.parse(fs.readFileSync('data/publications.json', 'utf8'));
 
 // Attach to baseContext
-const baseContext = { year: new Date().getFullYear(), socialLinks: socialLinks };
+const baseContext = { year: new Date().getFullYear(), socialLinks, publications };
 
 // Pages and optional context
 const pages = [
   { name: 'index', context: { ...baseContext, title: 'Jiali Guo\'s Website' } },
   { name: 'bio', context: { ...baseContext, title: 'Jiali - Bio' } },
   { name: 'cv', context: { ...baseContext, title: 'Jiali - CV' } },
-  { 
-    name: 'publications', 
-    context: {
-      ...baseContext,
-      title: 'Jiali - Publications',
-      publications: JSON.parse(fs.readFileSync('data/publications.json', 'utf8'))
-    }
-  },
+  { name: 'publications', context: { ...baseContext, title: 'Jiali - Publications' } },
   { name: 'contact', context: { ...baseContext, title: 'Jiali - Contact' } },
   { name: 'fun-facts', context: { ...baseContext, title: 'Jiali - Fun Facts' } }
 ];
