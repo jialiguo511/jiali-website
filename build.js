@@ -33,7 +33,7 @@ const baseContext = { year: new Date().getFullYear(), socialLinks, publications 
 const pages = [
   { name: 'index', context: { ...baseContext, title: 'Jiali Guo\'s Website' } },
   { name: 'bio', context: { ...baseContext, title: 'Jiali - Bio' } },
-  { name: 'cv', context: { ...baseContext, title: 'Jiali - CV' } },
+  { name: 'cv', context: { ...baseContext, ...JSON.parse(fs.readFileSync('data/cv.json', 'utf8')) } },
   { name: 'publications', context: { ...baseContext, title: 'Jiali - Publications' } },
   { name: 'contact', context: { ...baseContext, title: 'Jiali - Contact' } },
   { name: 'fun-facts', context: { ...baseContext, title: 'Jiali - Fun Facts' } }
