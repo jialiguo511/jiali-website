@@ -4,7 +4,11 @@
     <img
       src="{{image.src}}"
       alt="{{image.alt}}"
-      class="{{image.class}}"
+      class="img-fluid img-thumbnail"
+      style="cursor: pointer;"
+      data-bs-toggle="modal"
+      data-bs-target="#imageModal-{{id}}"
+      data-bs-src="{{image.src}}"
     >
   </div>
   <!-- Right: content -->
@@ -81,5 +85,28 @@
       </div>
     {{/if}}
 
+  </div>
+</div>
+
+<!-- 2. The Modal (place near the end of <body>) -->
+<div
+  class="modal fade"
+  id="imageModal-{{id}}"
+  tabindex="-1"
+  aria-labelledby="imageModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+    <div class="modal-content bg-transparent border-0">
+      <div class="modal-body p-0 text-center">
+        <img src="{{image.src}}" alt="{{image.alt}}" class="img-fluid" id="modalImage-{{id}}">
+      </div>
+      <button
+        type="button"
+        class="btn-close position-absolute top-0 end-0 m-3"
+        data-bs-dismiss="modal"
+        aria-label="Close"
+      ></button>
+    </div>
   </div>
 </div>
