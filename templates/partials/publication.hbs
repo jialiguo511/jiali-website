@@ -18,7 +18,9 @@
       {{else if (eq status "In Progress")}}
         <span class="badge bg-warning text-dark">{{status}}</span>
       {{else if (eq status "Resubmit")}}
-        <span class="badge bg-info">{{status}}</span>
+        <span class="badge bg-info text-dark">{{status}}</span>
+      {{else if (eq status "Under Review")}}
+        <span class="badge bg-info text-dark">{{status}}</span>
       {{else}}
         <span class="badge bg-secondary">{{status}}</span>
       {{/if}}
