@@ -223,7 +223,13 @@
   </ul>
 
   <h4 class="cv-border-bottom">Publications</h4>
+  <section>
+    {{#each publications}}
+      {{> publication-item-cv}}
+    {{/each}}
+  </section>
 
+  {{!--   
   <section class="mb-5">
     <li class="d-flex flex-column flex-md-row mb-3">
       <a href="">
@@ -283,7 +289,6 @@
     </li>
   </section>
 
-
   <section class="mb-5">
     <li class="d-flex flex-column flex-md-row mb-3">
       <a href="https://www.medrxiv.org/content/10.1101/2024.10.01.24314707v1">
@@ -313,4 +318,5 @@
         <span class="fw-bold">Keywords:</span> diabetes, HIV, EHR data, care cascade
       </div>
     </li>
-  </section>
+  </section> 
+  --}}

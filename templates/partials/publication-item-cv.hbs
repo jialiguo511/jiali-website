@@ -1,0 +1,33 @@
+<li class="d-flex flex-column flex-md-row mb-4">
+  <a href="{{link.url}}">
+    <div class="badge 
+                {{#if (eq status "Published")}}bg-success
+                {{else if (eq status "In Progress")}}bg-warning text-dark
+                {{else if (eq status "Under Review")}}bg-info text-dark
+                {{else if (eq status "Resubmit")}}bg-info text-dark
+                {{else}}bg-secondary
+                {{/if}}
+                me-3 mb-2 mw-100">
+      {{status}}
+    </div>
+  </a>
+  <div>
+    <div>
+      {{#each authors}}{{#if (eq this "Jiali Guo")}}<span class="fw-bold">{{this}}</span>{{else}}{{this}}{{/if}}{{#unless @last}}, {{/unless}}{{/each}}.
+      "{{title}}."
+      {{#if journal}}<span class="fw-bold fst-italic">{{journal}}</span>.{{/if}}
+      {{#if citation}}<span>{{citation}}</span>.{{/if}}
+      {{#if link}}<a href="{{link.url}}" target="_blank" rel="noopener">{{link.url}}</a>{{/if}}
+    </div>
+
+
+    {{#if keywords}}
+    <div>
+      <span class="fw-bold">Keywords:</span>
+      {{#each keywords}}
+        <span class="badge bg-secondary">{{this}}</span>
+      {{/each}}
+    </div>
+    {{/if}}
+  </div>
+</li>
