@@ -30,7 +30,7 @@
       </div>
       <ul class="mt-0">
         {{#each responsibilities}}
-          <li>{{this}}</li>
+          <li>{{{this}}}</li>
         {{/each}}
       </ul>
     </section>
@@ -53,17 +53,17 @@
       {{#if projects}}
         {{#each projects}}
           <ul class="mt-0 flex-md-row mt-2">
-            <li class="fw-bold list-unstyled">{{title}}</li>
+            <li class="fw-bold list-unstyled">{{{title}}}</li>
             <li class="list-unstyled fw-bold text-muted">{{period}}</li>
             {{#each description}}
-              <li>{{this}}</li>
+              <li>{{{this}}}</li>
             {{/each}}
           </ul>
         {{/each}}
       {{else}}
         <ul class="mt-0">
           {{#each responsibilities}}
-            <li>{{this}}</li>
+            <li>{{{this}}}</li>
           {{/each}}
         </ul>
       {{/if}}
