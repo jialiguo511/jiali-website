@@ -43,7 +43,7 @@
       "class": "img-fluid rounded"
     },
     "status": "Under Review",
-    "journal": "The Journal of Diabetes and Its Complications",
+    "journal": "Diabetes Care",
     "title": "Data-Driven Subtypes of Newly Diagnosed Youth-Onset Type 2 Diabetes in the USA",
     "authors": [
       "Jiali Guo",
@@ -84,7 +84,7 @@
       "alt": "Distribution of clinical characteristics residuals by cluster",
       "class": "img-fluid rounded"
     },
-    "status": "In Progress",
+    "status": "Under Review",
     "journal": "The Journal of Diabetes and Its Complications",
     "title": "Pathophysiological Risk Factors of Type 2 Diabetes Subtypes: A Pooled Cohort Study in the United States",
     "authors": [
@@ -117,8 +117,8 @@
       "alt": "Forest plot of mean and ci of bmi by dm, race and sex one dm group; Forest plot of mean and ci of body fat by dm, race and sex one dm group",
       "class": "img-fluid rounded"
     },
-    "status": "In Progress",
-    "journal": "TBD",
+    "status": "Under Review",
+    "journal": "Lancet Diabetes and Endocrinology",
     "title": "Body Composition and Body Mass Index Among People With and Without Diabetes: A National Analysis, 2011-2018",
     "authors": [
       "Rodolfo J. Galindo",
@@ -153,8 +153,8 @@
       "alt": "FIGURE ADA Metabolic monitoring",
       "class": "img-fluid rounded"
     },
-    "status": "In Progress",
-    "journal": "TBD",
+    "status": "Under Review",
+    "journal": "Annals of Internal Medicine",
     "title": "Metabolic Monitoring among Patients with Type 2 Diabetes Prescribed Second Generation Antipsychotics",
     "authors": [
       "Jiali Guo",
@@ -180,7 +180,7 @@
       "class": "img-fluid rounded"
     },
     "status": "Resubmit",
-    "journal": "TBD",
+    "journal": "Journal of Human Hypertension",
     "title": "Hypertension Prevalence, Treatment and Control Among Men Attending an HIV Specialty Clinic",
     "authors": [
       "Samuel C.O. Opara",
@@ -212,7 +212,7 @@
       "class": "img-fluid rounded"
     },
     "status": "In Progress",
-    "journal": "TBD",
+    "journal": "The Journal of Clinical Endocrinology and Metabolism",
     "title": "Risk of All-Cause and Cause-Specific Mortality for Novel Subtypes of Type 2 Diabetes",
     "authors": [
       "Krishna Sanaka",
