@@ -52,7 +52,7 @@ npm install
 node build.js
 ```
 
-or
+or (preferred)
 
 ```bash
 npm run build
@@ -68,7 +68,7 @@ You can use any static server (like `serve` or `http-server`) to view it locally
 npx serve docs
 ```
 
-or
+or (preferred)
 
 ```bash
 npm run dev
