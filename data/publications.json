@@ -43,7 +43,7 @@
       "class": "img-fluid rounded"
     },
     "status": "Under Review",
-    "journal": "Diabetes Care",
+    "journal": "Journal of Diabetes and Its Complications",
     "title": "Data-Driven Subtypes of Newly Diagnosed Youth-Onset Type 2 Diabetes in the USA",
     "authors": [
       "Jiali Guo",
@@ -56,7 +56,7 @@
     ],
     "keywords": [
       "precision medicine",
-      "diabetes endotypes",
+      "diabetes phenotypes",
       "clustering analysis",
       "youth type 2 diabetes",
       "beta cell function",
@@ -85,7 +85,7 @@
       "class": "img-fluid rounded"
     },
     "status": "Under Review",
-    "journal": "The Journal of Diabetes and Its Complications",
+    "journal": "Diabetes Care",
     "title": "Pathophysiological Risk Factors of Type 2 Diabetes Subtypes: A Pooled Cohort Study in the United States",
     "authors": [
       "Jiali Guo",
@@ -98,7 +98,7 @@
     "keywords": [
       "precision medicine",
       "diabetes phenotypes",
-      "clusters",
+      "clustering analysis",
       "beta cell function",
       "insulin deficiency",
       "insulin resistance"
@@ -121,10 +121,9 @@
     "journal": "Lancet Diabetes and Endocrinology",
     "title": "Body Composition and Body Mass Index Among People With and Without Diabetes: A National Analysis, 2011-2018",
     "authors": [
-      "Rodolfo J. Galindo",
-      "Jiali Guo",
+      "Rodolfo J. Galindo*",
+      "Jiali Guo*",
       "Giuliana Arevalo",
-      "Jithin Sam Varghese",
       "Khrisna Sanaka",
       "Rozalina McCoy",
       "Guillermo E. Umpierrez",
@@ -132,9 +131,11 @@
       "Mohammed K. Ali"
     ],
     "keywords": [
-      "adiposity",
-      "body fat",
-      "type 2 diabetes",
+      "Body Mass Index",
+      "body composition",
+      "total body fat",
+      "visceral fat",
+      "diabetes",
       "survey data"
     ],
     "link": false,
@@ -154,7 +155,7 @@
       "class": "img-fluid rounded"
     },
     "status": "Under Review",
-    "journal": "Annals of Internal Medicine",
+    "journal": "American Journal of Psychiatry",
     "title": "Metabolic Monitoring among Patients with Type 2 Diabetes Prescribed Second Generation Antipsychotics",
     "authors": [
       "Jiali Guo",
@@ -162,7 +163,13 @@
       "Robert O. Cotes",
       "Jithin Sam Varghese"
     ],
-    "keywords": [],
+    "keywords": [
+      "serious mental illness",
+      "type 2 diabetes",
+      "antipsychotics",
+      "diabetes monitoring",
+      "electronic health records"
+    ],
     "link": false,
     "shortSummary": "We studied metabolic monitoring in the three years after the first SGA prescription following T2D diagnosis, relative to those prescribed first generation antipsychotics (FGA) and neither. Poor metabolic monitoring following SGA prescription may hinder individualized risk management for T2D complications among this vulnerable population.",
     "futureDirections": false,
@@ -179,7 +186,7 @@
       "alt": "age-standardised hypertension care continuum by race and sexual orientation",
       "class": "img-fluid rounded"
     },
-    "status": "Resubmit",
+    "status": "Under Review",
     "journal": "Journal of Human Hypertension",
     "title": "Hypertension Prevalence, Treatment and Control Among Men Attending an HIV Specialty Clinic",
     "authors": [
@@ -207,21 +214,29 @@
   {
     "id": "pub07",
     "image": {
-      "src": "/assets/images/publications/wip.jpg",
-      "alt": "",
+      "src": "/assets/images/publications/KM curve by cause of death.png",
+      "alt": "cumulative incidence of all cause-specific mortality among subtypes of type 2 diabetes",
       "class": "img-fluid rounded"
     },
-    "status": "In Progress",
+    "status": "Under Review",
     "journal": "The Journal of Clinical Endocrinology and Metabolism",
     "title": "Risk of All-Cause and Cause-Specific Mortality for Novel Subtypes of Type 2 Diabetes",
     "authors": [
       "Krishna Sanaka",
       "Jiali Guo",
+      "Daniel Hua",
       "Zhongyu Li",
-      "Jithin Sam Varghese",
-      "et al."
+      "Mohammed K. Ali",
+      "Jithin Sam Varghese"
     ],
-    "keywords": false,
+    "keywords": [
+      "precision medicine",
+      "diabetes phenotype",
+      "clusters",
+      "beta cell function",
+      "insulin deficiency",
+      "indulin resistance"
+    ],
     "link": false,
     "shortSummary": "TBD",
     "futureDirections": false,
