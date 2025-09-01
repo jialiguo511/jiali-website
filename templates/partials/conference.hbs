@@ -1,0 +1,29 @@
+<section>
+    <article class="mb-4">
+      <div class="card shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">{{title}}</h5>
+          {{#if authors}}
+            <p class="card-subtitle mb-2 text-muted">
+              {{#each authors}}{{this}}{{#unless @last}}, {{/unless}}{{/each}}
+            </p>
+          {{/if}}
+          {{#if venue}}
+            <p class="mb-3"><em>{{venue}}</em></p>
+          {{/if}}
+
+          {{#if presentations.length}}
+            <h6 class="mt-3">Associated Presentations</h6>
+            <ul class="list-group list-group-flush">
+              {{#each presentations}}
+                <li class="list-group-item">
+                  <strong>{{type}}</strong>{{#if event}} — {{event}}{{/if}}
+                  {{#if link}} — <a href="{{link}}" target="_blank" rel="noopener">Link</a>{{/if}}
+                </li>
+              {{/each}}
+            </ul>
+          {{/if}}
+        </div>
+      </div>
+    </article>
+</section>

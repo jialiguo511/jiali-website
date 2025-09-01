@@ -25,15 +25,19 @@ fs.readdirSync(partialsDir).forEach(file => {
 const layout = Handlebars.compile(fs.readFileSync('templates/layout.hbs', 'utf8'));
 const socialLinks = JSON.parse(fs.readFileSync('data/socialLinks.json', 'utf8'));
 const publications = JSON.parse(fs.readFileSync('data/publications.json', 'utf8'));
+const conferences = JSON.parse(fs.readFileSync('data/conferences.json', 'utf8'));
+const projects = JSON.parse(fs.readFileSync('data/projects.json', 'utf8'));
 
 // Attach to baseContext
-const baseContext = { year: new Date().getFullYear(), socialLinks, publications };
+const baseContext = { year: new Date().getFullYear(), socialLinks, publications, conferences, projects };
 
 // Pages and optional context
 const pages = [
   { name: 'index', context: { ...baseContext, title: 'Jiali Guo\'s Website' } },
   { name: 'bio', context: { ...baseContext, title: 'Jiali - Bio' } },
   { name: 'cv', context: { ...baseContext, ...JSON.parse(fs.readFileSync('data/cv.json', 'utf8')) } },
+  { name: 'projects', context: { ...baseContext, title: 'Jiali - Projects' } },
+  { name: 'conferences', context: { ...baseContext, title: 'Jiali - Conferences' } },
   { name: 'publications', context: { ...baseContext, title: 'Jiali - Publications' } },
   { name: 'contact', context: { ...baseContext, title: 'Jiali - Contact' } },
   { name: 'fun-facts', context: { ...baseContext, title: 'Jiali - Fun Facts' } }
