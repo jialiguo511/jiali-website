@@ -20,6 +20,11 @@
     "icon": "fab fa-researchgate"
   },
   {
+    "label": "GitHub",
+    "url": "https://github.com/jialiguo511",
+    "icon": "fab fa-github"
+  },
+  {
     "label": "YouTube",
     "url": "https://www.youtube.com/@JG-science",
     "icon": "fab fa-youtube"
