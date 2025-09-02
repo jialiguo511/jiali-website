@@ -23,11 +23,7 @@
       "cardiovascular disease",
       "health disparities"
     ],
-    "link": {
-      "url": "doi.org/10.1089/apc.2024.0193",
-      "class": "text-decoration-none",
-      "text": "View full article"
-    },
+    "link": "doi.org/10.1089/apc.2024.0193",
     "shortSummary": "Our study utilized electronic health records (EHR) of an HIV outpatient clinic to assess the continuum of diabetes care among people with HIV (PWH) and explored potential disparities in the management of diabetes across different racial and sexual orientation groups. We observed higher crude prevalence among Black heterosexual men but no meaningful differences after adjusting for BMI.",
     "futureDirections": "Investigate pharmacological and structural barriers to diabetes management among racial and sexual minorities living with HIV.",
     "longSummary": [
@@ -63,11 +59,7 @@
       "insulin deficiency",
       "insulin resistance"
     ],
-    "link": {
-      "url": "doi.org/10.1101/2024.10.01.24314707",
-      "class": "text-decoration-none",
-      "text": "View full article"
-    },
+    "link": "doi.org/10.1101/2024.10.01.24314707",
     "shortSummary": "Using data from the two largest studies on youth-onset type 2 diabetes, our study identified three data-driven subtypes with distinct clinical characteristics. These subtypes highlight the heterogeneity of youth-onset type 2 diabetes, offering opportunities for improved risk stratification and tailored disease management.",
     "futureDirections": false,
     "longSummary": [

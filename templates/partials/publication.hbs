@@ -33,10 +33,14 @@
 
     <!-- Title & Authors -->
     <h5 class="mb-2">{{title}}</h5>
-    <h6 class="text-muted mb-2">{{authors}}</h6>
+    <h6 class="text-muted mb-2">
+      {{#each authors}}
+        {{this}}{{#unless @last}}, {{/unless}}
+      {{/each}}
+    </h6>
 
     <!-- Keywords -->
-    <div class="mb-2">
+    <div class="mb-3">
       {{#if keywords}}
         {{#each keywords}}
           <span class="badge bg-secondary {{#unless @last}}me-1{{/unless}}">{{this}}</span>
@@ -45,15 +49,13 @@
     </div>
 
     <!-- Link -->
+    {{#if link}}
     <p class="mb-2">
-      <a
-        href="{{link.url}}"
-        class="{{link.class}}"
-        target="_blank" rel="noopener"
-      >
-        {{link.text}}
+      <a href="{{link}}" class="text-decoration-none" target="_blank" rel="noopener">
+        view full article
       </a>
     </p>
+    {{/if}}
 
     <!-- Short Summary -->
     <h6 class="mb-1">Short Summary</h6>
