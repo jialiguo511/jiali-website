@@ -1,1 +1,55 @@
-[]
+[
+  {
+    "id": "proj01",
+    "image": {
+      "src": "/assets/images/publications/prevalence_monitoring_treatment.jpg",
+      "alt": "Age‐standardised diabetes care continuum by race & sexual orientation",
+      "class": "img-fluid rounded"
+    },
+    "title": "Prevalence, Monitoring, Treatment, and Control of Type 2 Diabetes by Race and Sexual Orientation Among Males with HIV",
+    "authors": [
+      "Jiali Guo",
+      "Samuel C.O. Opara",
+      "Sophia A. Hussen",
+      "Jithin Sam Varghese"
+    ],
+    "keywords": [
+      "type 2 diabetes",
+      "HIV",
+      "EHR",
+      "cardiovascular disease",
+      "health disparities"
+    ],
+    "link": "doi.org/10.1089/apc.2024.0193",
+    "summary": "Our study utilized electronic health records (EHR) of an HIV outpatient clinic to assess the continuum of diabetes care among people with HIV (PWH) and explored potential disparities in the management of diabetes across different racial and sexual orientation groups. We observed higher crude prevalence among Black heterosexual men but no meaningful differences after adjusting for BMI."
+  },
+  {
+    "id": "proj02",
+    "image": {
+      "src": "/assets/images/publications/subphenotypes_of_youth-onset.jpg",
+      "alt": "Distribution of clinical characteristics residuals by cluster",
+      "class": "img-fluid rounded"
+    },
+    "title": "Data-Driven Subtypes of Newly Diagnosed Youth-Onset Type 2 Diabetes in the USA",
+    "authors": [
+      "Jiali Guo",
+      "Zhongyu Li",
+      "Rodrigo M. Carrillo-Larco",
+      "Daniel S. Hsia",
+      "Jessica L Harding",
+      "Mohammed K. Ali",
+      "Jithin Sam Varghese"
+    ],
+    "keywords": [
+      "precision medicine",
+      "diabetes phenotypes",
+      "clustering analysis",
+      "youth type 2 diabetes",
+      "beta cell function",
+      "insulin deficiency",
+      "insulin resistance"
+    ],
+    "link": "doi.org/10.1101/2024.10.01.24314707",
+    "summary": "Using data from the two largest studies on youth-onset type 2 diabetes, our study identified three data-driven subtypes with distinct clinical characteristics. These subtypes highlight the heterogeneity of youth-onset type 2 diabetes, offering opportunities for improved risk stratification and tailored disease management."
+  }
+]
