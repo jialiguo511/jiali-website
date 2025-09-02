@@ -1,6 +1,7 @@
 const fs = require('fs-extra');
 const Handlebars = require('handlebars');
 const path = require('path');
+require('./helpers/ordinal-sup');
 
 // Register 'eq' helper for value comparisons in templates
 // Supports both inline and block usage
