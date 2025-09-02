@@ -2,24 +2,84 @@
   {
     "title": "Metabolic Monitoring among Patients with Type 2 Diabetes Prescribed Second Generation Antipsychotics",
     "authors": ["Guo, J.", "Goldsmith, D.", "Cotes, R. O.", "Varghese, J. S."],
+    "link": null,
     "presentations": [
       {
         "type": "Poster",
         "event": "ADA 85th Scientific Sessions",
-        "link": "https://doi.org/10.2337/db25-1929-LB"
+        "link": "https://doi.org/10.2337/db25-1929-LB",
+        "location": "TBD",
+        "date": "TBD"
       },
       {
         "type": "Oral",
         "event": "AMIA 2025 Annual Symposium",
-        "link": "https://amia.secure-platform.com/symposium/gallery/rounds/82021/details/19123"
+        "link": "https://amia.secure-platform.com/symposium/gallery/rounds/82021/details/19123",
+        "location": "TBD",
+        "date": "TBD"
       },
       {
         "type": "Poster",
-        "event": "Emory 11th Annual Health Services Research Day"
+        "event": "Emory 11th Annual Health Services Research Day",
+        "link": "TBD",
+        "location": "TBD",
+        "date": "TBD"
       },
       {
         "type": "Oral",
-        "event": "9th Annual Georgia Center for Diabetes Translation Research Scientific Symposium"
+        "event": "9th Annual Georgia Center for Diabetes Translation Research Scientific Symposium",
+        "link": "TBD",
+        "location": "TBD",
+        "date": "TBD"
+      }
+    ]
+  },
+  {
+    "title": "Pathophysiological Risk Factors Preceding Incidence of Type 2 Diabetes Subtypes: A Pooled Cohort Study in the United States",
+    "authors": ["Guo, J.", "Li, Z.", "Patel, S. A.", "Chang, H. H.", "Varghese, J. S."],
+    "link": null,
+    "presentations": [
+      {
+        "type": "Oral",
+        "event": "ADA 85th Scientific Sessions",
+        "link": "https://doi.org/10.2337/db25-290-OR",
+        "location": "TBD",
+        "date": "TBD"
+      },
+      {
+        "type": "Poster",
+        "event": "ADA 85th Scientific Sessions",
+        "link": "https://doi.org/10.2337/db25-1600-P",
+        "location": "TBD",
+        "date": "TBD"
+      }
+    ]
+  },
+  {
+    "title": "Risks of cancers among novel subtypes of type 2 diabetes—A longitudinal analysis from the United States",
+    "authors": ["Li, Z.", "Salazar, B. C.", "Guo, J.", "Hua, D.", "Sanaka, K.", "Vellanki, P.", "Ali, M. K.", "Hofmeister, C. C.", "Varghese, J. S."],
+    "link": null,
+    "presentations": [
+      {
+        "type": "Oral",
+        "event": "ADA 85th Scientific Sessions",
+        "link": "https://doi.org/10.2337/db25-70-OR",
+        "location": "TBD",
+        "date": "TBD"
+      }
+    ]
+  },
+  {
+    "title": "Type 2 diabetes subtypes and risk of dementia in the United States",
+    "authors": ["Li, Z.", "Salazar, B. C.", "Guo, J.", "Sanaka, K.", "Kahkoska, A.", "Vellanki, P.", "Ali, M. K.", "Varghese, J. S."],
+    "link": null,
+    "presentations": [
+      {
+        "type": "Oral",
+        "event": "ADA 85th Scientific Sessions",
+        "link": "https://doi.org/10.2337/db25-22-OR",
+        "location": "TBD",
+        "date": "TBD"
       }
     ]
   }

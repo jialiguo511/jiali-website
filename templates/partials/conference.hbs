@@ -1,29 +1,22 @@
-<section>
-    <article class="mb-4">
-      <div class="card shadow-sm">
-        <div class="card-body">
-          <h5 class="card-title">{{title}}</h5>
-          {{#if authors}}
-            <p class="card-subtitle mb-2 text-muted">
-              {{#each authors}}{{this}}{{#unless @last}}, {{/unless}}{{/each}}
-            </p>
-          {{/if}}
-          {{#if venue}}
-            <p class="mb-3"><em>{{venue}}</em></p>
-          {{/if}}
+<div class="row mb-4">
+  <div>
+    <h5 class="mb-2">
+      {{#if link}}<a href="{{link}}" target="_blank" rel="noopener">{{title}}</a>{{else}}{{title}}{{/if}}</h5>
+    <h6 class="text-muted mb-6">{{#each authors}}{{this}}{{#unless @last}}, {{/unless}}{{/each}}</h6>
+  </div>
 
-          {{#if presentations.length}}
-            <h6 class="mt-3">Associated Presentations</h6>
-            <ul class="list-group list-group-flush">
-              {{#each presentations}}
-                <li class="list-group-item">
-                  <strong>{{type}}</strong>{{#if event}} — {{event}}{{/if}}
-                  {{#if link}} — <a href="{{link}}" target="_blank" rel="noopener">Link</a>{{/if}}
-                </li>
-              {{/each}}
-            </ul>
-          {{/if}}
-        </div>
-      </div>
-    </article>
-</section>
+  {{#if presentations.length}}
+    <div>
+      <ul>
+        {{#each presentations}}
+          <li>
+            <span class="fw-bold">
+              <a href="{{link}}" target="_blank" rel="noopener">{{type}}</a>
+            </span> 
+        {{#if event}} - {{ordinal-sup event}}{{/if}}{{#if location}} - {{location}}{{/if}}{{#if date}} - {{date}}{{/if}}
+          </li>
+        {{/each}}
+      </ul>
+    </div>
+  {{/if}}
+</div>
