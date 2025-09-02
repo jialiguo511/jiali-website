@@ -6,6 +6,7 @@
     "presentations": [
       {
         "type": "Poster",
+        "filePath": null,
         "event": "ADA 85th Scientific Sessions",
         "link": "https://doi.org/10.2337/db25-1929-LB",
         "location": "TBD",
@@ -13,6 +14,7 @@
       },
       {
         "type": "Oral",
+        "filePath": null,
         "event": "AMIA 2025 Annual Symposium",
         "link": "https://amia.secure-platform.com/symposium/gallery/rounds/82021/details/19123",
         "location": "TBD",
@@ -20,15 +22,17 @@
       },
       {
         "type": "Poster",
+        "filePath": null,
         "event": "Emory 11th Annual Health Services Research Day",
-        "link": "TBD",
+        "link": null,
         "location": "TBD",
         "date": "TBD"
       },
       {
         "type": "Oral",
+        "filePath": null,
         "event": "9th Annual Georgia Center for Diabetes Translation Research Scientific Symposium",
-        "link": "TBD",
+        "link": null,
         "location": "TBD",
         "date": "TBD"
       }
@@ -41,6 +45,7 @@
     "presentations": [
       {
         "type": "Oral",
+        "filePath": null,
         "event": "ADA 85th Scientific Sessions",
         "link": "https://doi.org/10.2337/db25-290-OR",
         "location": "TBD",
@@ -48,6 +53,7 @@
       },
       {
         "type": "Poster",
+        "filePath": null,
         "event": "ADA 85th Scientific Sessions",
         "link": "https://doi.org/10.2337/db25-1600-P",
         "location": "TBD",
@@ -62,6 +68,7 @@
     "presentations": [
       {
         "type": "Oral",
+        "filePath": null,
         "event": "ADA 85th Scientific Sessions",
         "link": "https://doi.org/10.2337/db25-70-OR",
         "location": "TBD",
@@ -76,6 +83,7 @@
     "presentations": [
       {
         "type": "Oral",
+        "filePath": null,
         "event": "ADA 85th Scientific Sessions",
         "link": "https://doi.org/10.2337/db25-22-OR",
         "location": "TBD",

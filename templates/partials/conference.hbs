@@ -11,9 +11,21 @@
         {{#each presentations}}
           <li>
             <span class="fw-bold">
-              <a href="{{link}}" target="_blank" rel="noopener">{{type}}</a>
-            </span> 
-        {{#if event}} - {{ordinal-sup event}}{{/if}}{{#if location}} - {{location}}{{/if}}{{#if date}} - {{date}}{{/if}}
+              {{#if filePath}}
+                <a href="{{filePath}}" target="_blank" rel="noopener">{{type}}</a>
+              {{else}}
+                {{type}}
+              {{/if}}
+            </span>
+
+            {{#if link}}
+               - <a href="{{link}}" target="_blank" rel="noopener">{{ordinal-sup event}}</a>
+            {{else}}
+               - {{ordinal-sup event}}
+            {{/if}}
+
+            {{#if location}} - {{location}}{{/if}}
+            {{#if date}} - {{date}}{{/if}}
           </li>
         {{/each}}
       </ul>
