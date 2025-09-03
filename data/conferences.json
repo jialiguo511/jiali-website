@@ -1,4 +1,5 @@
 [
+
   {
     "title": "Metabolic Monitoring among Patients with Type 2 Diabetes Prescribed Second Generation Antipsychotics",
     "authors": ["Guo, J.", "Goldsmith, D.", "Cotes, R. O.", "Varghese, J. S."],
@@ -6,11 +7,11 @@
     "presentations": [
       {
         "type": "Poster",
-        "filePath": null,
+        "filePath": "assets/conferences/sga_t2d_poster.pdf",
         "event": "ADA 85th Scientific Sessions",
         "link": "https://doi.org/10.2337/db25-1929-LB",
-        "location": "TBD",
-        "date": "TBD"
+        "location": "Chicago, IL USA",
+        "date": "June 19 to 23, 2025"
       },
       {
         "type": "Oral",
@@ -38,6 +39,7 @@
       }
     ]
   },
+  
   {
     "title": "Pathophysiological Risk Factors Preceding Incidence of Type 2 Diabetes Subtypes: A Pooled Cohort Study in the United States",
     "authors": ["Guo, J.", "Li, Z.", "Patel, S. A.", "Chang, H. H.", "Varghese, J. S."],
@@ -61,6 +63,7 @@
       }
     ]
   },
+  
   {
     "title": "Risks of cancers among novel subtypes of type 2 diabetes—A longitudinal analysis from the United States",
     "authors": ["Li, Z.", "Salazar, B. C.", "Guo, J.", "Hua, D.", "Sanaka, K.", "Vellanki, P.", "Ali, M. K.", "Hofmeister, C. C.", "Varghese, J. S."],
@@ -76,6 +79,7 @@
       }
     ]
   },
+  
   {
     "title": "Type 2 diabetes subtypes and risk of dementia in the United States",
     "authors": ["Li, Z.", "Salazar, B. C.", "Guo, J.", "Sanaka, K.", "Kahkoska, A.", "Vellanki, P.", "Ali, M. K.", "Varghese, J. S."],
@@ -91,4 +95,5 @@
       }
     ]
   }
+  
 ]

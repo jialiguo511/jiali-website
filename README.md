@@ -89,3 +89,36 @@ This site is configured to be hosted using **GitHub Pages**. Make sure your repo
 ## 📝 License
 
 This project is for personal and academic use only. Please contact [Jiali Guo](jialiguo.com/contact) for permissions.
+
+
+
+## Notes
+
+I. Images, posters, pdf files are saved in `assets` sub-folders.
+
+II. Relationship in json files: The publication section on the CV page is data driven by the publications.json. 
+In other words, the right way to update the publication section of the CV is to update the `publications.json`. 
+Only update publications.json once and all publication related content will get automatically refreshed.
+
+However, other json files are not related.
+
+
+## File structure
+
+.json file: editable 
+After editing the .json file, run `npm run build`; then `npm run dev`
+Once run dev is up and running (looks like the terminal is "busy"), your HTTP (web) server stays running and stays alive.
+This is when you are able to access the website (via the web server) through the address and port in your browser,
+typically localhost:8080 for the development server.
+
+Update CV PDF: Should the hard copy of the CV be updated, please replace the cv.pdf file in /docs/assets/cv.pdf. 
+This is the only step required to update the CV.
+
+/docs/assets is where all static files are stored, including poster image files, cv.pdf, and all sorts of pdfs.
+A good practice is to keep files organized in folders that are parallel to the structure of the site, so that things are aligned and not easily mixed up.
+
+/templates is useful only when you are editing content directly on these pages: bio.hbs, contact.hbs (but not social links. Social links has its own json file), fun-facts.hbs. 
+The other files should in principle not be touched.
+
+When you are lost, in terms of where to find the source file for your content, please use global search and match by the keyword of your interest to locate the source. 
+Typically it is very safe to edit just the plain text, whether it is nested in a JSON or is part of a HTML based template.
