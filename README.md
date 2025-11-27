@@ -111,10 +111,10 @@ Once run dev is up and running (looks like the terminal is "busy"), your HTTP (w
 This is when you are able to access the website (via the web server) through the address and port in your browser,
 typically localhost:8080 for the development server.
 
-Update CV PDF: Should the hard copy of the CV be updated, please replace the cv.pdf file in /docs/assets/cv.pdf. 
+Update CV PDF: Should the hard copy of the CV be updated, please replace the Jiali_Guo_CV.pdf file in /docs/assets/Jiali_Guo_CV.pdf. 
 This is the only step required to update the CV.
 
-/docs/assets is where all static files are stored, including poster image files, cv.pdf, and all sorts of pdfs.
+/docs/assets is where all static files are stored, including poster image files, Jiali_Guo_CV.pdf, and all sorts of pdfs.
 A good practice is to keep files organized in folders that are parallel to the structure of the site, so that things are aligned and not easily mixed up.
 
 /templates is useful only when you are editing content directly on these pages: bio.hbs, contact.hbs (but not social links. Social links has its own json file), fun-facts.hbs. 
