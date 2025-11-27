@@ -20,9 +20,10 @@
       "cardiovascular disease",
       "health disparities"
     ],
-    "link": "doi.org/10.1089/apc.2024.0193",
+    "link": null,
     "summary": "Our study utilized electronic health records (EHR) of an HIV outpatient clinic to assess the continuum of diabetes care among people with HIV (PWH) and explored potential disparities in the management of diabetes across different racial and sexual orientation groups. We observed higher crude prevalence among Black heterosexual men but no meaningful differences after adjusting for BMI."
   },
+  
   {
     "id": "proj02",
     "image": {
