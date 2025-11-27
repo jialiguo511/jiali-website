@@ -14,6 +14,12 @@ Handlebars.registerHelper('eq', function(a, b, options) {
   return a === b;
 });
 
+// Logical OR helper for combining conditions
+Handlebars.registerHelper('or', function(...args) {
+  const options = args.pop();
+  return args.some(Boolean) ? options.fn ? options.fn(this) : true : options.inverse ? options.inverse(this) : false;
+});
+
 // Register partials
 const partialsDir = path.join(__dirname, 'templates/partials');
 fs.readdirSync(partialsDir).forEach(file => {

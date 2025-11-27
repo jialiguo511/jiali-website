@@ -17,7 +17,7 @@
     <!-- Published & Journal at top -->
     <div class="mb-2">
       <!-- Status badge -->
-      {{#if (eq status "Published")}}
+      {{#if (or (eq status "Published") (eq status "Accepted"))}}
         <span class="badge bg-success">{{status}}</span>
       {{else if (eq status "In Progress")}}
         <span class="badge bg-warning text-dark">{{status}}</span>

@@ -1,16 +1,15 @@
 <li class="d-flex flex-column flex-md-row mb-4">
-  <a href="{{link.url}}">
-    <div class="badge 
-                {{#if (eq status "Published")}}bg-success
-                {{else if (eq status "In Progress")}}bg-warning text-dark
-                {{else if (eq status "Under Review")}}bg-info text-dark
-                {{else if (eq status "Resubmit")}}bg-info text-dark
-                {{else}}bg-secondary
-                {{/if}}
-                me-3 mb-2 mw-100">
+  <div class="me-3 mb-2 flex-shrink-0" style="min-width: 8rem; max-width: 12rem;">
+    <span class="badge w-100
+                  {{#if (or (eq status "Published") (eq status "Accepted"))}}bg-success
+                  {{else if (eq status "In Progress")}}bg-warning text-dark
+                  {{else if (eq status "Under Review")}}bg-info text-dark
+                  {{else if (eq status "Resubmit")}}bg-info text-dark
+                  {{else}}bg-secondary
+                  {{/if}}">
       {{status}}
-    </div>
-  </a>
+    </span>
+  </div>
   <div>
     <div>
       {{#each authors}}{{#if (eq this "Jiali Guo")}}<span class="fw-bold">{{this}}</span>{{else}}{{this}}{{/if}}{{#unless @last}}, {{/unless}}{{/each}}.

@@ -34,6 +34,39 @@
   {
     "id": "pub02",
     "image": {
+      "src": "/assets/images/publications/pathophysiological_risk_factors.jpg",
+      "alt": "Distribution of clinical characteristics residuals by cluster",
+      "class": "img-fluid rounded"
+    },
+    "status": "Accepted",
+    "journal": "Diabetes Care",
+    "title": "Pathophysiological Risk Factors of Type 2 Diabetes Subtypes: A Pooled Cohort Study in the United States",
+    "authors": [
+      "Jiali Guo",
+      "Zhongyu Li",
+      "Shivani Patel",
+      "Howard Chang",
+      "Mohammed K. Ali",
+      "Jithin Sam Varghese"
+    ],
+    "keywords": [
+      "precision medicine",
+      "diabetes phenotypes",
+      "clustering analysis",
+      "beta cell function",
+      "insulin deficiency",
+      "insulin resistance"
+    ],
+    "link": false,
+    "shortSummary": "We analyzed 15-year pre-diagnostic trajectories of seven metabolic markers across four U.S. cohorts to examine their associations with data-driven type 2 diabetes (T2D) subtypes. Distinct patterns emerged: HbA1c and HOMA2-%B changed sharply before SIDD diagnosis, while HOMA2-IR and BMI were key predictors for SIRD and MOD. These findings highlight the potential of longitudinal biomarkers to inform early, subtype-specific T2D prevention.",
+    "futureDirections": false,
+    "longSummary": [
+      "Understanding early changes before type 2 diabetes (T2D) diagnosis may improve subtype-specific prevention. We conducted a retrospective longitudinal study using four U.S. cohorts (CARDIA, DPP/DPPOS, JHS, MESA) to evaluate associations between seven pathophysiological markers and data-driven T2D subtypes. We analyzed 15-year trajectories among individuals with newly diagnosed T2D (≤1 year duration). Metabolic profiles showed distinct, non-linear patterns across subtypes. HbA1c increased sharply and HOMA2-%B declined in the five years before diagnosis for SIDD. HOMA2-IR rose for both SIRD and SIDD. SBP, HbA1c, and HOMA2-IR were robust prognostic markers across all subtypes. Higher BMI predicted MOD, SIRD, and SIDD but was inversely associated with MARD. These results highlight the importance of tracking biomarker trajectories in the pre-diagnostic period to improve early identification of subtype-specific risk and inform tailored interventions."
+    ]
+  },
+  {
+    "id": "pub03",
+    "image": {
       "src": "/assets/images/publications/subphenotypes_of_youth-onset.jpg",
       "alt": "Distribution of clinical characteristics residuals by cluster",
       "class": "img-fluid rounded"
@@ -67,39 +100,6 @@
       "We conducted a cross-sectional study including T2D patients (duration ≤1 year) aged 10-19 years from the SEARCH for Diabetes in Youth Study (n=304; 47.4%) and aged 10-17 years from the Treatment Options for Type 2 Diabetes in Adolescents and Youth (n=337; 52.6%) study before intervention allocation. We examined variables available in routine clinical practice: body mass index (BMI), HbA1c, fasting C-peptide, systolic blood pressure, diastolic blood pressure, LDL and HDL cholesterol. Main outcomes were data-driven subtypes identified using k-means clustering.",
       "Our analysis revealed three youth-onset subtypes: 48.5% had obesity-related T2D (yOD), 18.7% had insulin deficient T2D (yIDD), and 32.7% had insulin resistant T2D (yIRD). The yOD subtype were characterized by high BMI (33.5 kg/m² [SD: 3.7]) and low HbA1c (5.7%, IQR: 5.4–6.2%). The yIDD exhibited low fasting C-peptide levels (2.1 ng/mL [SD: 1.1]), high HDL cholesterol (48.2 mg/dL [SD: 9.6]), and high HbA1c (7.6%, IQR: 6.3–8.9%). The yIRD subtype had high BMI (38.8 kg/m² [SD: 7.3]), high fasting C-peptide (5.1 ng/mL [SD: 1.8]), and high blood pressures (SBP: 124.0 mmHg [SD: 9.4]; DBP: 76.2 mmHg [SD: 9.1]) compared to other subtypes.",
       "This analysis identified three subtypes of youth-onset T2D with different clinical characteristics. Management of youth-onset T2D may require tailored strategies by subtype."
-    ]
-  },
-  {
-    "id": "pub03",
-    "image": {
-      "src": "/assets/images/publications/pathophysiological_risk_factors.jpg",
-      "alt": "Distribution of clinical characteristics residuals by cluster",
-      "class": "img-fluid rounded"
-    },
-    "status": "Under Review",
-    "journal": "Diabetes Care",
-    "title": "Pathophysiological Risk Factors of Type 2 Diabetes Subtypes: A Pooled Cohort Study in the United States",
-    "authors": [
-      "Jiali Guo",
-      "Zhongyu Li",
-      "Shivani Patel",
-      "Howard Chang",
-      "Mohammed K. Ali",
-      "Jithin Sam Varghese"
-    ],
-    "keywords": [
-      "precision medicine",
-      "diabetes phenotypes",
-      "clustering analysis",
-      "beta cell function",
-      "insulin deficiency",
-      "insulin resistance"
-    ],
-    "link": false,
-    "shortSummary": "We analyzed 15-year pre-diagnostic trajectories of seven metabolic markers across four U.S. cohorts to examine their associations with data-driven type 2 diabetes (T2D) subtypes. Distinct patterns emerged: HbA1c and HOMA2-%B changed sharply before SIDD diagnosis, while HOMA2-IR and BMI were key predictors for SIRD and MOD. These findings highlight the potential of longitudinal biomarkers to inform early, subtype-specific T2D prevention.",
-    "futureDirections": false,
-    "longSummary": [
-      "Understanding early changes before type 2 diabetes (T2D) diagnosis may improve subtype-specific prevention. We conducted a retrospective longitudinal study using four U.S. cohorts (CARDIA, DPP/DPPOS, JHS, MESA) to evaluate associations between seven pathophysiological markers and data-driven T2D subtypes. We analyzed 15-year trajectories among individuals with newly diagnosed T2D (≤1 year duration). Metabolic profiles showed distinct, non-linear patterns across subtypes. HbA1c increased sharply and HOMA2-%B declined in the five years before diagnosis for SIDD. HOMA2-IR rose for both SIRD and SIDD. SBP, HbA1c, and HOMA2-IR were robust prognostic markers across all subtypes. Higher BMI predicted MOD, SIRD, and SIDD but was inversely associated with MARD. These results highlight the importance of tracking biomarker trajectories in the pre-diagnostic period to improve early identification of subtype-specific risk and inform tailored interventions."
     ]
   },
   {
